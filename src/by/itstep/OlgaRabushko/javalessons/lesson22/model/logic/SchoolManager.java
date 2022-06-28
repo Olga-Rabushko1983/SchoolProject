@@ -45,6 +45,6 @@ public class SchoolManager {
                 result += (i + 1) + "";
             }
         }
-        return result;
+        return result.trim();
     }
 }
