@@ -43,7 +43,7 @@ public  static void destroy(){groups=null;
     @Test
     public void testFindBadStudentGroups() {
         //int[][] groups = getGroups();      //9
-        String expected = "13";
+        String expected = "1 3";
 
         String actual = SchoolManager.findBadStudentGroups(groups);
         assertEquals(expected, actual);
@@ -52,7 +52,7 @@ public  static void destroy(){groups=null;
     @Test
     public void testfindGroupsWithoutBadStudent() {
         //int[][] groups = getGroups();        //5
-        String expected = "24";
+        String expected = "2 4";
 
         String actual = SchoolManager.findGroupsWithoutBadStudents(groups);
         assertEquals(expected, actual);

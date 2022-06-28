@@ -19,7 +19,7 @@ public class SchoolManager {
         for (int i = 0; i < groups.length; i++) {
             for (int j = 0; j < groups[i].length; j++) {
                if (groups[i][j]<4){
-                   result+=(i+1)+"";
+                   result+=(i+1) + " ";
                    break;
                }
             }
@@ -42,7 +42,7 @@ public class SchoolManager {
                 }
             }
             if (flag) {
-                result += (i + 1) + "";
+                result += (i + 1) + " ";
             }
         }
         return result.trim();
